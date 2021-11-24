@@ -66,6 +66,8 @@ mvnw clean package -DskipTests
 
 docker build -t hr-worker:v1 .
 
+O "P" maiúsculo faz com que rode em portas aleatórias
+
 docker run -P --network hr-net hr-worker:v1
 ```
 
